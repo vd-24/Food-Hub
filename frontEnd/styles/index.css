@@ -1,0 +1,309 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  margin: 20px; /* Add margin to create space around the page */
+  color: gray;
+}
+#navbar{
+    margin: auto;
+    width: 95%;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+#logo{
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+#search-box{
+
+    width: 300px;
+    height: 30px;
+}
+#nav-l{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+#nav-r{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    /* padding-left: 20px; */
+    
+    
+}
+.link{
+    width: auto;
+    /* border: 1px solid red; */
+   align-items: center;
+   text-decoration: none;
+   font-weight: 600;
+   color: black;
+   
+}
+.link:hover{
+    color: #fc8019;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    color: rgb(138, 174, 206);
+    background-color: #18e01b;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+}
+.btn:hover{
+    color:  #18e01b;
+    border: 2px solid  #18e01b ;
+    background-color:aliceblue;
+    
+}
+#other{ 
+    font-size: 7px;
+}
+#address{font-size: 12px;}
+
+/* Hero section*/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+
+.hero-image {
+  flex-basis: 50%;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  padding: 40px;
+}
+
+.hero-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+/*Card Section of APIs*/
+
+.card{
+  width: 90%;
+  /* height: 50px; */
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-heading{
+  /* text-decoration: underline; */
+}
+.card-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/*chat gpt stayle   start here */
+body {
+  background-color: #f7f7f7;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #45a049;
+}
+
+.card-button:active {
+  background-color: #3e8e41;
+}
+
+.card-button:focus {
+  outline: none;
+}
+
+/* Additional styles for spacing and alignment */
+.card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between; /* Align buttons in a row with space between */
+  align-items: center; /* Center buttons vertically */
+}
+
+.card-heading {
+  margin-bottom: 15px;
+}
+
+.card-button {
+  flex: 1; /* Distribute available space equally among buttons */
+  max-width: 200px; /* Limit the width of each button if needed */
+}
+
+
+/* Additional styles for spacing and alignment */
+.card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between; /* Align buttons in a row with space between */
+  align-items: center; /* Center buttons vertically */
+}
+
+.card-heading {
+  margin-bottom: 15px;
+}
+
+.card-button {
+  flex: 1; /* Distribute available space equally among buttons */
+  max-width: 200px; /* Limit the width of each button if needed */
+}
+
+
+/* Additional styles for spacing and alignment */
+.card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-heading {
+  margin-bottom: 15px;
+}
+
+.card-button:nth-child(5n) {
+  margin-right: 0;
+}
+
+.card-button:nth-last-child(-n+5) {
+  margin-bottom: 0;
+}
+
+
+
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    background: #000000 !important;
+}
+#footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+  color:#ffffff;
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+#footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+}
+#footer ul.quick-links li a i{
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
